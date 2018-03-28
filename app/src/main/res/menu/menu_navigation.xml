@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_star_black"
+        android:title="@string/favorite_string"
+        android:id="@+id/nav_favorite"/>
+
+    <item
+        android:orderInCategory="1"
+        android:title="@string/language_text">
+        <menu>
+            <!--<item-->
+                <!--android:id="@+id/nav_custom_lang"-->
+                <!--android:icon="@drawable/ic_format_list"-->
+                <!--android:title="@string/custom_language_text"/>-->
+            <item
+                android:id="@+id/nav_add_lang"
+                android:icon="@drawable/ic_add"
+                android:title="@string/add_language_text"/>
+            <item
+                android:id="@+id/nav_remove_lang"
+                android:icon="@drawable/ic_remove_black"
+                android:title="@string/remove_language_text"/>
+        </menu>
+    </item>
+    <item
+        android:orderInCategory="2"
+        android:title="@string/setting_text">
+        <menu>
+
+            <item
+                android:id="@+id/nav_theme"
+                android:icon="@drawable/ic_theme"
+                android:title="@string/color_theme_text"/>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="@string/about_text"/>
+        </menu>
+    </item>
+</menu>

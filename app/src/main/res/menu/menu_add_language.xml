@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_add_language_save"
+        android:title="@string/save"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_save_black"/>
+
+    <item
+        android:id="@+id/menu_add_language_clear"
+        android:title="@string/clear"
+        android:icon="@drawable/ic_clear_all"
+        app:showAsAction="ifRoom"/>
+</menu>

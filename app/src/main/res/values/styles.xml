@@ -1,0 +1,8 @@
+<resources>
+    <attr name="colorPrimaryLight" format="reference"/>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="cardViewStyle">@style/CardView</item>
+    </style>
+
+</resources>

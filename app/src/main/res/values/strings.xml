@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Github Trends</string>
+    <string name="built_by">Built by</string>
+    <string name="favorite_string">Favorites</string>
+    <string-array name="since_time">
+        <item>Today</item>
+        <item>This Week</item>
+        <item>This Month</item>
+    </string-array>
+    <string name="language_text">Language</string>
+    <string name="custom_language_text">Custom Language</string>
+    <string name="add_language_text">Add Language</string>
+    <string name="remove_language_text">Remove Language</string>
+    <string name="color_theme_text">Color Theme</string>
+    <string name="about_text">About</string>
+    <string name="setting_text">Settings</string>
+    <string name="discard_title">Confrim Exit?</string>
+    <string name="discard_messaeg">There are some unsaved changes, do you really want to exit before save it?</string>
+    <string name="language_remove_alert">You must keep at least one language.</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="done">Done</string>
+    <string name="discard">Discard</string>
+</resources>
