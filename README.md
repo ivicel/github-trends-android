@@ -1,1 +1,1 @@
-# github-trends-android
+github trends client for android
