@@ -154,20 +154,9 @@ public class RepoListFragment extends Fragment implements SwipeRefreshLayout.OnR
             }
         });
     
-//        request.setTag(getRequestTag());
-//        AppApplication.getQueue().add(request);
-//        mSwipeRefresh.setRefreshing(true);
-         try {
-             InputStream in = getContext().getAssets().open("test_data.json");
-             Gson gson = new Gson();
-             List<Repo> repos = gson.fromJson(new BufferedReader(new InputStreamReader(in)),
-                     new TypeToken<List<Repo>>(){}.getType());
-             mRepoListAdapter.updateRepositories(repos);
-             mSwipeRefresh.setRefreshing(false);
-         } catch (IOException e) {
-             e.printStackTrace();
-         }
-    
+        request.setTag(getRequestTag());
+        AppApplication.getQueue().add(request);
+        mSwipeRefresh.setRefreshing(true);
     }
 
     private String getRequestTag() {
