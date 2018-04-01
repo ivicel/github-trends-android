@@ -36,6 +36,7 @@ import java.util.List;
 import info.ivicel.github.githubtrends.Constants;
 import info.ivicel.github.githubtrends.R;
 import info.ivicel.github.githubtrends.model.Language;
+import info.ivicel.github.githubtrends.ui.AboutActivity;
 import info.ivicel.github.githubtrends.ui.RepoListFragment;
 import info.ivicel.github.githubtrends.ui.dialog.ThemeChooserDialog;
 import info.ivicel.github.githubtrends.util.AttrHelper;
@@ -169,6 +170,10 @@ public class MainActivity extends BasicActivity implements AdapterView.OnItemSel
                 Intent ir = RemoveLanguageActivity.newIntent(this);
                 startActivity(ir);
                 break;
+
+            case R.id.nav_about:
+                Intent i2 = AboutActivity.newIntent(this);
+                startActivity(i2);
                 
             default:
                 return false;

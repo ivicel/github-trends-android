@@ -27,7 +27,7 @@ import info.ivicel.github.githubtrends.model.Contributor;
 import info.ivicel.github.githubtrends.model.Repo;
 import info.ivicel.github.githubtrends.ui.activity.RepoPageActivity;
 import info.ivicel.github.githubtrends.util.FavorHelper;
-import info.ivicel.github.githubtrends.util.ImageLruCache;
+import info.ivicel.github.githubtrends.helper.ImageLruCache;
 
 public class RepoRecyclerAdapter extends RecyclerView.Adapter<RepoRecyclerAdapter.ViewHolder> {
     private static final String TAG = "RepoRecyclerAdapter";

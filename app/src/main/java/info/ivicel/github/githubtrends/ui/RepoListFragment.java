@@ -144,13 +144,14 @@ public class RepoListFragment extends Fragment implements SwipeRefreshLayout.OnR
             @Override
             public void onErrorResponse(VolleyError error) {
                 mSwipeRefresh.setRefreshing(false);
+                Log.d(TAG, "onErrorResponse: " + error.getMessage());
                 Toast.makeText(getContext(), "Network error.", Toast.LENGTH_SHORT).show();
             }
         }, new Response.Listener<List<Repo>>() {
             @Override
             public void onResponse(List<Repo> response) {
-                mRepoListAdapter.updateRepositories(response);
                 mSwipeRefresh.setRefreshing(false);
+                mRepoListAdapter.updateRepositories(response);
             }
         });
     

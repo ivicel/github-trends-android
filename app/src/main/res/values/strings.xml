@@ -21,4 +21,5 @@
     <string name="clear">Clear</string>
     <string name="done">Done</string>
     <string name="discard">Discard</string>
+    <string name="about">This is a GitHub repositories trendings for Android which is Created by Ivicel.\nSource: https://github.com/ivicel/github-trends-android</string>
 </resources>

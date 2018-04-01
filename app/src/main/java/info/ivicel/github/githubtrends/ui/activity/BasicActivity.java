@@ -30,7 +30,7 @@ public class BasicActivity extends AppCompatActivity {
     
     protected void setStatusAndTaskColor(@ColorInt int colorPrimary) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            getWindow().setStatusBarColor(colorPrimary);
+//            getWindow().setStatusBarColor(colorPrimary);
             ActivityManager.TaskDescription td = new ActivityManager.TaskDescription(null,
                     null, colorPrimary);
             setTaskDescription(td);

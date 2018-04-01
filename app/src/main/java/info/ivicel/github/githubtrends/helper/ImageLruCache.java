@@ -1,4 +1,4 @@
-package info.ivicel.github.githubtrends.util;
+package info.ivicel.github.githubtrends.helper;
 
 
 import android.content.Context;
@@ -17,6 +17,8 @@ import java.io.OutputStream;
 import java.lang.ref.WeakReference;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+
+import info.ivicel.github.githubtrends.util.HexUtil;
 
 public class ImageLruCache implements ImageLoader.ImageCache {
     private static final int MAX_SIZE = 10 * 1024 * 1024;
